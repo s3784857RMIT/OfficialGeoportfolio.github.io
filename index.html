@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--#ID# #CSS# Put the name of your CSS document and file extension in href e.g. href="geoportfolio.css"-->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Projects</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Work Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="target.png" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Daniel McManus</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		Hello and welcome to my Geoportfolio. My name is Daniel McManus, a geospatial student who is an ethusiast in working with spatial data and understanding the complexities of the land that we sit on.
+		My Geoportfolio includes information about myself and the projects that I have worked on that is academically and profesionally related to the field of geospatial science. 
+		<p>
+		I'm a 23 year old living in Melbourne, Australia and I am in my fourth and final year of the Bachelor of Science (Geospatial Science) (Honours) course at RMIT University.
+		I have completed 2 years of both diploma and advanced diploma of surveying, which contributed to the additional 3 years of geospatial science. The programs provided me with a strong foundation in geospatial technologies and data analysis. 
+		</p>
+		<p>
+		Additionally, my years of experience in the field as a surveyor assistant have further enhanced my practical understanding of spatial data and its applications.
+		With a rich background in surveying and geospatial science, I've delved into the intricate world of GIS tools, mastering applications like ArcGIS and QGIS. 
+		</p> 
+		<p>
+		My passion lies in transforming spatial data into meaningful narratives, using my keen eye for detail and problem-solving skills.
+		I enjoy creating accurate spatial maps, working with satellite and aerial imagery, learning about geoscience, human geography, cartography and mapping.
+		</p>
+		<div class="portraits">
+	<tr>
+	<th><img src="IMG_1042.jpg" class="self-portrait"> </th>
+	<th></th><img src="IMG_7200.jpg" class="self-portrait"> </th>
+</tr>
+</table>	
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	<br>
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Cartography</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		During my time in the Cartography course at RMIT University, I honed my professional map-making skills, empowering me to craft compelling maps from diverse spatial data sources. 
+		This immersive class involved working with spatial data from online government resources and population figures from the Australian Bureau of Statistics (ABS). 
+		The course emphasised applying cartographic design theory in practical contexts, challenging my abilities to create convincing maps. 
+		The final mapping assignment served as a testament to my acquired cartographic skills, 
+		showcasing both my practical expertise and theoretical knowledge in the realm of map design.
+		<p>
+			Below is the final map that I created for the class:
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+	<div class="bar"><h3>Cartography Project - Map of the Greater Melbourne Area (LGA Areas)</h3></div>
+	<img src="Project_PDF/cartography.png" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Environmental Systems Analysis</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		<p>
+			In my Environmental Systems Analysis class at RMIT University, I delved into the intricate world of GIS, 
+			aiming to bridge the gap between urban development and ecological preservation.	
+		</p>
+		</p>
+		The challenge was to propose land use management strategies through an academic poster. Urbanisation, with sprawling roads and buildings, often fractures habitats critical for biodiversity. 
+		Using GIS, I identified key areas for ecological connectivity, proposing innovative solutions. Land bridges and carefully designed tunnels emerged as practical interventions, tailored to the needs of diverse fauna. 
+		Additionally, my research emphasised the vital role of collaboration between government bodies and private landowners. 
+		<p>
+		Through pretend education initiatives and strategic partnerships, I advocated for the preservation of cultural sites and wildlife habitats. 
+		This GIS-driven approach not only highlighted the problem but also presented viable, implementable solutions, underscoring the importance of a harmonious balance between human development and nature in our ever-expanding cities.	
+		</p>
+		
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Environmental Systems Analysis Project - Academic Poster Using GIS</h3></div>
+	<img src="Project_PDF/environmentalsystemsanalysis.png" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	
+	<!--SUBJECT 3-->
+
+	<div class="bar"><h2>Spatial / Geographical Information Science Analytics</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		<p>
+			In my Spatial/Geographical Information Science Analytics class, I undertook a pivotal assignment as a Geospatial Analyst for the Cardinia Shire Council. 
+			Tasked with assessing the accessibility of schools in Pakenham, a fast-growing Victoria suburb, my objective was to ensure an equitable distribution of schools relative to residential areas. 
+			Employing GIS tools, I meticulously analysed road networks, mesh block data, and school locations, meticulously calculating walking distances. 
+			The analysis revealed three prominent routes falling outside the acceptable 40-minute walking radius, indicating gaps in educational accessibility
+		</p>
+		<p>
+			Utilising ArcMap, I implemented closest-facility analysis, categorising routes based on walking times. 
+			Despite challenges with outdated data, I successfully proposed two strategic school locations bridging accessibility gaps, facilitating better education access for the community. 
+			This project not only honed my GIS skills but also showcased my ability to address real-world challenges using spatial analysis. 
+			Through this assignment, I learned the practical application of geospatial data in enhancing social infrastructure, a valuable lesson I carry forward into my geospatial career endeavors.
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Spatial / GIS Analytics Project - Geospatial Analysis: Enhancing Education Access in Pakenham</h3></div>
+	<img src="Project_PDF/spatialaccessibility1.png" class="agt-gis"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<br>
+	<img src="Project_PDF/spatialaccessibility2.png" class="agt-gis"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+<br>
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="academic-intro">
+	<b>This page will briefly cover all my work experience (as of September 2023) within the geospatial science and surveying industry.</b>
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>JAC Surveyors</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="JAC-logo.png" class="company-logo">
+	<div class="job-title">Land Surveying Assistant</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">September 2019 – May 2022</div> <!--Change the month and year worked-->
+	<br>
+	<div class="academic-intro">
+		During my initial work experience with JAC Surveyors, which commenced as 160 hours internship and later transitioned into a full-time casual role spanning from September 2019 to May 2022, 
+		I had the opportunity to immerse myself in the intricate world of geospatial science. 
+		Working mainly during university holidays, 
+		I engaged in substantial projects, notably Oherns Road and Donnybrook Road, where I played a pivotal role as a surveyor assistant.
+		<p>
+			My responsibilities extended to rigorous analysis of field data, contributing significantly to the production of precise reports for various projects. 
+			One of the key projects, Oherns Road, involved daily monitoring of targets on a developed bridge. 
+			This task demanded collecting precise spatial data related to the bridge’s deformation, movement, and structural changes. 
+			Using tools like LisCAD and Pix4DMapper whenever I used drone flight footage, I meticulously compared current data with baseline figures, detecting any deviations over time. 
+			This process ensured the data’s high quality, minimising errors and inconsistencies.
+			</p>
+		<p>
+			This hands-on experience equipped me with valuable skills in spatial data analysis, enabling me to translate intricate data into targeted and informative reports. 
+			My role as a surveyor assistant at JAC Surveyors profoundly influenced my understanding of geospatial practices, shaping my expertise and enhancing my capabilities in the field.
+		</p>
+		<b>Here are some of the projects I worked on while working at JAC Surveyors</b>
+		<div class="academic-list">
+		<ul>
+			<li> <a href="https://www.jacsurveyors.com/oherns_rd" title="database icons">Oherns Road Project</a></li>
+			<li> <a href="https://www.jacsurveyors.com/donnybrook_road_upgrade" title="database icons">Donnybrook Road Project</a></li>
+			<li> <a href="https://www.jacsurveyors.com/atherstone" title="database icons">Atherstone</a></li>
+		</ul>
+	</div>
+						
+	</div>
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/QGIS-icon.png" class="iconimages"></td>
+				<td>GIS (ARCGIS / QGIS)</td>
+                <td><img src="Icons/photoshop.png" class="iconimages"></td>
+				<td>Adobe Photoshop</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/map.png" class="iconimages"></td>
+				<td>Cartographic Fundamentals</td>
+                <td><img src="Icons/cad.png" class="iconimages"></td>
+				<td>AutoCAD & LisCAD</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/rs-satellite-icon.png" class="iconimages"></td>
+				<td>Remote Sensing</td>
+                <td><img src="Icons/drone-icon.png" class="iconimages"></td>
+				<td>Photogrammetry and Drone Mapping</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/algorithm.png" class="iconimages"></td>
+				<td>Trimble Business Center</td>
+                <td><img src="Icons/webgis.png" class="iconimages"></td>
+				<td>Web GIS</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/web-design.png" class="iconimages"></td>
+				<td>Web Design: HTML & CSS</td>
+                <td><img src="Icons/sql.png" class="iconimages"></td>
+				<td>SQL Database Management</td>
+            </tr>
+        </table>
+    </div>
+
+	<!-- #ID# #CREDITS#-->
+	<div class="pagetitle" id="credits">
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="academic-intro">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Nicholas Lee</li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+            <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+        </ul>
+        As per the policy of using the Flaticons with a free account, the attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/database" title="database icons">Database icons created by Stockio - Flaticon</a></th>
+            <th><img src="Icons/sql.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/cartography" title="cartography icons">Draw icons created by Ranah Pixel Studio - Flaticon</a></th>
+            <th><img src="Icons/map.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/liscad" title="CAD icons">CAD icons created by kliwir - Flaticon</a></th>
+            <th><img src="Icons/cad.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/algorithm" title="fme icons">Algorithm icons created by Iconjam - Flaticon</a></th>
+            <th><img src="Icons/algorithm.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/web-design.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/drone" title="drone icons">Drone icons created by Smashicons - Flaticon</a></th>
+            <th><img src="Icons/drone-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/satellite" title="satellite icons">Satellite icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/rs-satellite-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></th>
+            <th><img src="linkedin.png" class="icon-attribute"></th>
+        </tr>
+		<tr>
+            <th><a href="https://www.flaticon.com/free-icons/photoshop" title="photoshop icons">Photoshop icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/photoshop.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+
+	<div class="footer"> <!-- #ID# #FOOTER# -->
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Daniel McManus as part of undergraduate Professional Practice course.
+		</div>
+		<table class="contacttable">
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="linkedin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Linkedin Online Profile:
+					<br><a href="https://www.linkedin.com/in/daniel-mcmanus-a637171b9" title="LinkedIn Profile - Daniel McManus">LinkedIn Profile - Daniel McManus</a></th>
+				<th>
+					Email Address:
+					<br><a href = "mailto:s3784857@student.rmit.edu.au">s3784857@student.rmit.edu.au</a>
+						OR
+					<a href = "mailto:danmacca10136@gmail.com">danmacca10136@gmail.com</a>
+				</th>
+				<th>Mobile:
+					<br> 0499-099-024
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
